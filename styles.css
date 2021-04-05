@@ -1,0 +1,41 @@
+html, body, #mw-head, #mw-panel {
+    background-color: #fff !important;
+}
+
+.mw-body-content {
+    margin-left: 15em !important;
+    margin-right: 20em !important;
+    border: 1px solid #fff !important;
+    
+}
+
+.firstHeading {
+    margin-left: 7.2em !important;
+    border-bottom: 0px !important;
+}
+
+.toc, .toccolours {
+    border: 0.1em solid #ddd !important;
+    background-color: #fff !important;
+    padding: 2em !important;
+    font-size: 95% !important;
+    box-shadow: #eee 0em 0em 0.5em !important;
+    border-radius: 0.5em !important;
+}
+
+.mwe-popups {
+    border-radius: 2em !important;
+}
+
+.vector-menu-tabs, .vector-menu-tabs li, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
+    background-image: none !important;
+}
+
+.mw-body {
+    border: 1px solid #eee !important;
+}
+
+* {
+-webkit-font-smoothing: antialiased !important;
+-webkit-text-stroke: 0.3px !important;
+}

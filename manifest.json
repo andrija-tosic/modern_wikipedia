@@ -1,0 +1,13 @@
+{
+    "name": "Margin setter",
+    "description": "Margin setter",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "matches": ["https://*/*"]
+    }]
+  }
