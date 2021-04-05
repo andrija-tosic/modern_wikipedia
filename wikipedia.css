@@ -1,0 +1,133 @@
+.thumbinner, .thumbimage, .infobox, .toc, .sidebar, table .sidebar {
+    border-radius: 1em !important;
+    border: 0.1em solid #000 !important;
+    box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.25);
+}
+
+#mw-head, #mw-head-base, #mw-page-base {
+    visibility:hidden;
+    border:0px;
+}
+
+img {
+    border-radius: 0.5em !important;
+}
+
+.infobox, .thumbinner, .sidebar, table .sidebar {
+    padding: 1em !important;
+}
+
+.thumbinner, .tsingle, .thumbimage, .infobox, .sidebar, table .sidebar {
+    border: 0px !important;
+}
+
+.box-Update, .box-Primary_sources {
+    border: 0.1em solid #111213 !important;
+    box-shadow: #111213 0em 0em 1em !important;
+    border-radius: 1em !important;
+}
+
+a, p a, a span, .toc ul li a, li a, td a, .reference a, .hatnote a {
+    color:#03a5fc !important;
+}
+
+#mw-panel {
+    padding:2em !important;
+    box-shadow: #111213 0em 0em 1em !important;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+    }
+
+    html, body, #mw-head, #mw-panel {
+        background-color: #fff !important;
+    }
+
+    .mw-body {
+        margin-left: 15em !important;
+        margin-right: 20em !important;
+        border: 1px solid #fff !important;
+    }
+
+    .firstHeading {
+        margin-left: 7.2em !important;
+        border-bottom: 0px !important;
+    }
+
+    .toc, .toccolours {
+        border: 0.1em solid #ddd !important;
+        background-color: #fff !important;
+        padding: 2em !important;
+        font-size: 95% !important;
+        box-shadow: #eee 0em 0em 1em !important;
+        border-radius: 0.5em !important;
+    }
+
+    .toc, .toccolours, .infobox {
+        box-shadow: #eee 0em 0em 1em !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        color-scheme: dark;
+    }
+
+    li::before, li::marker {
+        color:white !important;
+    }
+
+    ul {
+        list-style-image: none !important;
+    }
+    
+    .wikitable {
+        border: 1px solid #333 !important;
+    }
+
+    .infobox {
+        padding: 1em !important;
+    }
+    
+    html, body, #mw-head, #mw-panel, .mw-body, table, div * {
+        background-color: #181a1b !important;
+        color:white !important;
+    }
+
+    .mw-body-content {
+        margin-left: 15em !important;
+        margin-right: 20em !important;
+        //border: 1px solid #333 !important;
+        
+    }
+
+    .firstHeading {
+        margin-left: 7.2em !important;
+        border-bottom: 0px !important;
+        color:white;
+    }
+
+    .toc, .toccolours {
+        border: 0.1em solid #111213 !important;
+        background-color: #181a1b !important;
+        padding: 2em !important;
+        font-size: 95% !important;
+        border-radius: 0.5em !important;
+    }
+    
+    .mw-body {
+        border: 1px solid #000 !important;
+        border-top:0px !important;
+        //font-family: "Cambria" !important;
+    }
+}
+
+.mwe-popups {
+    border-radius: 2em !important;
+}
+
+.vector-menu-tabs, .vector-menu-tabs li, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
+    background-image: none !important;
+}
