@@ -1,12 +1,23 @@
-.thumbinner, .thumbimage, .infobox, .toc, .sidebar, table .sidebar {
-    border-radius: 1em !important;
-    border: 0.1em solid #000 !important;
-    box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.25);
+    .mw-body-content {
+        margin-left: 15em !important;
+        margin-right: 20em !important;
+        border: 0px solid #fff !important;
+    }
+p {
+    text-align: justify !important;
 }
+    .firstHeading {
+        margin-left: 7.2em !important;
+        border-bottom: 0px !important;
+    }
 
 #mw-head, #mw-head-base, #mw-page-base {
-    visibility:hidden;
-    border:0px;
+    visibility:hidden !important;
+    border:0px !important;
+}
+
+.mw-body {
+    border:0px !important;
 }
 
 img {
@@ -27,16 +38,19 @@ img {
     border-radius: 1em !important;
 }
 
-a, p a, a span, .toc ul li a, li a, td a, .reference a, .hatnote a {
-    color:#03a5fc !important;
-}
-
-#mw-panel {
-    padding:2em !important;
-    box-shadow: #111213 0em 0em 1em !important;
-}
-
 @media (prefers-color-scheme: light) {
+    .thumbinner, .infobox, .toc, .sidebar, table .sidebar {
+        border-radius: 1em !important;
+        border: 0.0em solid #000 !important;
+        box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.025);
+        background-color: #fff !important;
+    }
+    
+    #mw-panel {
+        padding:2em !important;
+        box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.025);
+    }
+
     :root {
         color-scheme: light;
     }
@@ -45,32 +59,31 @@ a, p a, a span, .toc ul li a, li a, td a, .reference a, .hatnote a {
         background-color: #fff !important;
     }
 
-    .mw-body {
-        margin-left: 15em !important;
-        margin-right: 20em !important;
-        border: 1px solid #fff !important;
-    }
-
-    .firstHeading {
-        margin-left: 7.2em !important;
-        border-bottom: 0px !important;
-    }
-
     .toc, .toccolours {
-        border: 0.1em solid #ddd !important;
-        background-color: #fff !important;
+        border: 0.0em solid #ddd !important;
         padding: 2em !important;
         font-size: 95% !important;
-        box-shadow: #eee 0em 0em 1em !important;
         border-radius: 0.5em !important;
-    }
-
-    .toc, .toccolours, .infobox {
-        box-shadow: #eee 0em 0em 1em !important;
+        background-color: #fff !important;
     }
 }
 
 @media (prefers-color-scheme: dark) {
+    a, p a, a span, .toc ul li a, li a, td a, .reference a, .hatnote a {
+        color:#03a5fc !important;
+    }
+
+    .thumbinner, .thumbimage, .infobox, .toc, .sidebar, table .sidebar {
+        border-radius: 1em !important;
+        border: 0.1em solid #000 !important;
+        box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.25);
+    }
+
+    #mw-panel {
+        padding:2em !important;
+        box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.25);
+    }
+
     :root {
         color-scheme: dark;
     }
@@ -89,24 +102,12 @@ a, p a, a span, .toc ul li a, li a, td a, .reference a, .hatnote a {
 
     .infobox {
         padding: 1em !important;
+        background-color: #181a1b !important;
     }
     
     html, body, #mw-head, #mw-panel, .mw-body, table, div * {
         background-color: #181a1b !important;
         color:white !important;
-    }
-
-    .mw-body-content {
-        margin-left: 15em !important;
-        margin-right: 20em !important;
-        //border: 1px solid #333 !important;
-        
-    }
-
-    .firstHeading {
-        margin-left: 7.2em !important;
-        border-bottom: 0px !important;
-        color:white;
     }
 
     .toc, .toccolours {
@@ -115,6 +116,9 @@ a, p a, a span, .toc ul li a, li a, td a, .reference a, .hatnote a {
         padding: 2em !important;
         font-size: 95% !important;
         border-radius: 0.5em !important;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     
     .mw-body {
