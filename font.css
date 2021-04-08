@@ -1,14 +1,7 @@
-@font-face {
-    font-family: "SF UI Text Regular" !important;
-    src: url("https://github.com/perrychan1/fonts/blob/main/SF%20UI/SF-UI-Text/SF-UI-Text-Regular.otf");
-}
-
 * {
     -webkit-font-smoothing: antialiased !important;
-    -webkit-text-stroke: 0.3px !important;
+    -webkit-text-stroke: 0.02em !important;
 }
-
-
 
 *:focus {
     outline:0 !important;
