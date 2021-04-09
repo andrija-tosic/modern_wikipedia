@@ -7,8 +7,10 @@
         "activeTab"
     ],
     "content_scripts": [{
+        "matches": ["https://*.wikipedia.org/*"],
+        "js": ["jquery-3.6.0.min.js", "math_equations.js"],
         "css": ["wikipedia.css"],
-        "matches": ["https://*.wikipedia.org/*"]
+        "run_at": "document_end"
     },
     {
         "css": ["font.css"],

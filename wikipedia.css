@@ -13,7 +13,6 @@
 
 html, body, #mw-head, #mw-panel {
     font-size: 12pt;
-    //font-family: 'New York Small', Georgia, 'Times New Roman', Times, serif !important;
 }
 
 ul {
@@ -182,6 +181,10 @@ img {
 @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: dark;
+    }
+
+    svg {
+        fill: #fff !important;
     }
 
     .box-Update, .box-Primary_sources, .box-More_citations_needed, .box-More_citations_needed tbody tr td, .box-Expert_needed, .box-Merge_from, .box-Multiple_issues, .box-More_footnotes {
