@@ -13,6 +13,12 @@
         "run_at": "document_end"
     },
     {
+        "matches": ["https://sr.wikipedia.org/*"],
+        "js": ["jquery-3.6.0.min.js", "math_equations.js"],
+        "css": ["sr_wikipedia.css"],
+        "run_at": "document_end"
+    },
+    {
         "css": ["font.css"],
         "matches": ["https://*/*"]
     }]
