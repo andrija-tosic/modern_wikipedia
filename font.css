@@ -1,6 +1,6 @@
 * {
-    -webkit-font-smoothing: antialiased !important;
-    -webkit-text-stroke: 0.01em !important;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-text-stroke: 0.24px !important;
 }
 
 *:focus {

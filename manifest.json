@@ -20,6 +20,6 @@
     },
     {
         "css": ["font.css"],
-        "matches": ["https://*/*"]
+        "matches": ["http://*/*", "https://*/*"]
     }]
   }
