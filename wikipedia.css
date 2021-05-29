@@ -15,6 +15,10 @@ html, body, #mw-head, #mw-panel {
     font-size: 12pt;
 }
 
+#siteSub {
+    margin-left: 15vw !important;
+}
+
 ul {
     list-style-image: none !important;
 }
