@@ -33,7 +33,7 @@ ul {
 }
 
 .vector-menu-tabs, .vector-menu-tabs li, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
-    background-image: none !important;
+   background-image: none !important;
 }
 
 .mw-body-content {
@@ -63,10 +63,23 @@ p {
     border-radius: 0.5em !important;
 }
 
+.mw-article-toolbar-container {
+    margin-left: 17.4vw !important;
+}
+
+#p-namespaces, #right-navigation, #p-personal, #p-search {
+    visibility: hidden !important;
+}
+
+#p-search {
+    visibility: none !important;
+}
+
+/*
 #mw-head, #mw-head-base, #mw-page-base {
     visibility:hidden !important;
 }
-
+*/
 #mw-panel {
     padding:2em !important;
     background-image: none !important;
@@ -87,7 +100,6 @@ p {
 
 #p-search {
     border-radius: 1em !important;
-    visibility: visible !important;
     margin-right: 20em !important;
 }
 
