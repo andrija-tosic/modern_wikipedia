@@ -19,6 +19,10 @@ html, body, #mw-head, #mw-panel {
     margin-left: 10vw !important;
 }
 
+#contentSub {
+    margin-left: 9.3vw !important;
+}
+
 ul {
     list-style-image: none !important;
 }
