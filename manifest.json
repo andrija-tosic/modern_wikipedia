@@ -9,13 +9,7 @@
     "content_scripts": [{
         "matches": ["https://en.wikipedia.org/*"],
         "js": ["jquery-3.6.0.min.js", "math_equations.js"],
-        "css": ["wikipedia.css"],
-        "run_at": "document_end"
-    },
-    {
-        "matches": ["https://sr.wikipedia.org/*"],
-        "js": ["jquery-3.6.0.min.js", "math_equations.js"],
-        "css": ["sr_wikipedia.css"],
+        "css": ["wikipedia.css", "wikipedia_light.css", "wikipedia_dark.css"],
         "run_at": "document_end"
     },
     {

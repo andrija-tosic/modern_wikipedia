@@ -1,0 +1,45 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        color-scheme: light;
+    }
+    
+    .box-Update, .box-Primary_sources, .box-More_citations_needed, .box-Expert_needed, .box-Merge_from, .box-Multiple_issues, .box-More_footnotes {
+        border: 0.0em solid #111213 !important;
+        box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.025);
+        background-color: #fff !important;
+    }
+
+    table.ambox {
+        background-color: #fff !important;
+    }
+
+    .thumbinner, .infobox, .toc, .sidebar, table .sidebar {
+        box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.025);
+        background-color: #fff !important;
+    }
+    
+    #mw-panel {
+        box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.025);
+    }
+
+    #searchInput, #searchform, #simpleSearch {
+        border-bottom: 1em #fff !important;    
+        color:#777 !important;
+        background-color: #fff !important;
+    }
+
+    #p-search {
+        border-bottom: 1em #fff !important;
+        border-radius: 1em !important;
+        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
+    }
+    
+    html, body, #mw-head, #mw-panel {
+        background-color: #fff !important;
+    }
+
+    .toc, .toccolours {
+        border: 0.0em solid #ddd !important;
+        background-color: #fff !important;
+    }
+}
