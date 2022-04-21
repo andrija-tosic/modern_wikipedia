@@ -1,9 +1,9 @@
 :root {
     --light-bg: #fff;
-    --dark-bg: #121212;
+    --dark-bg: #202124;
     --light-box: #fff;
     --dark-box: #333333;
-    --dark-box-shadow: 0.5;
+    --dark-box-shadow: 0.25;
 }
 
 @font-face {

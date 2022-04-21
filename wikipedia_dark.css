@@ -13,7 +13,7 @@
 
     .box-Update, .box-Primary_sources, .box-More_citations_needed, .box-More_citations_needed tbody tr td, .box-Expert_needed, .box-Merge_from, .box-Multiple_issues, .box-More_footnotes {
         border: 0.0em solid #111213 !important;
-        box-shadow: #111213 0em 0em 1em !important;
+        box-shadow: #121212 0em 0em 1em !important;
     }
 
     table {
