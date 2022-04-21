@@ -39,10 +39,13 @@ ul {
     background-image: none !important;
 }
 
+.vector-menu-portal .vector-menu-heading {
+    background-image: none !important;
+}
+
 .mw-body-content {
     margin-left: 8vw !important;
     margin-right: 8vw !important;
-    border: 0px solid #fff !important;
 
     box-shadow: 0px 0px 30px 20px rgb(0 0 0 / 3%);
     padding: 2em;
@@ -72,28 +75,24 @@ p {
 
 #mw-head, #mw-head-base, #mw-page-base {
     visibility:hidden !important;
-}
-
-#mw-panel {
-    padding:2em !important;
+    box-shadow: 0px 0px 30px 20px rgba(0,0,0,0.025);
 }
 
 #mw-searchButton, #searchButton {
     border-radius: 1em !important;
+    filter: brightness(5);
 }
 
 #searchInput, #searchform, #simpleSearch {
     border-radius: 1em !important;
-}
-
-#searchInput {
-    padding-left: 1em !important;
+    padding-left: 0.33em;
+    color: white;
 }
 
 #p-search {
     border-radius: 1em !important;
     visibility: visible !important;
-    margin-right: 20em !important;
+    margin-right: 12vw !important;
 }
 
 #p-search form {
@@ -140,6 +139,9 @@ img {
     padding: 1em;
 }
 
+#mw-panel {
+    padding:1em !important;
+}
 
 @media (prefers-color-scheme: light) {
     :root {
@@ -190,6 +192,10 @@ img {
 @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: dark;
+    }
+
+    #p-logo a {
+        filter: invert(1);
     }
 
     svg {
@@ -252,10 +258,6 @@ img {
         background-color: var(--dark-bg) !important;
     }
     
-    .mw-body {
-        border: 1px solid #000 !important;
-    }
-
     a, p a, a span, .toc ul li a, li a, td a, .reference a, .hatnote a, a span i {
         color:#03a5fc !important;
     }
