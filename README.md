@@ -6,7 +6,7 @@ Chrome extension for injecting a more modern design to wikipedia.org using CSS
 
 ## Light theme
 
-[![Light theme](./img/light_img1.jpg)]()
+[![Light theme](./img/light_img1.png)]()
 
 ## Dark theme
 
