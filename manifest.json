@@ -1,19 +1,13 @@
 {
-    "name": "Modern Wikipedia",
-    "description": "Chrome extension for injecting more modern design using css to wikipedia.org",
-    "version": "1.0",
-    "manifest_version": 3,
-    "permissions": [
-        "activeTab"
-    ],
-    "content_scripts": [{
-        "matches": ["https://en.wikipedia.org/*"],
-        "js": ["jquery-3.6.0.min.js", "math_equations.js"],
-        "css": ["wikipedia.css", "wikipedia_light.css", "wikipedia_dark.css"],
-        "run_at": "document_end"
-    },
+  "name": "Modern Wikipedia",
+  "description": "Chrome extension for injecting more modern design using css to wikipedia.org",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "content_scripts": [
     {
-        "css": ["font.css"],
-        "matches": ["http://*/*", "https://*/*"]
-    }]
-  }
+      "css": ["font.css"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}
